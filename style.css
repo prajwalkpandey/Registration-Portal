@@ -1,0 +1,58 @@
+.home-buttons{
+	right: 50%;
+	/*background-color: green;*/
+	height: 100vh;
+	float: right;
+	width:40%;
+	top:0px;
+	/*border-radius: 25%;*/
+	background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7) ),url(https://images.shiksha.com/mediadata/images/1550634752phpsaUQmw.jpeg);
+	background-size: cover;
+	background-position: center;
+}
+
+body{
+	margin: 0px;
+}
+
+.description{
+	text-align: center;
+	/*padding: 20px;*/
+	float: left;
+	width: 60%;
+	height: 100vh;
+	background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(https://img.collegepravesh.com/2018/12/IIIT-Guwahati.jpg);
+	position: relative;
+	background-size: cover;
+	background-position: center;
+	/*filter: blur(2px);*/
+	/*top: 50%;
+	left:0%;
+	-ms-transform: translateY(-60%);
+  transform: translateY(-60%);*/
+}
+
+.button-div{
+	
+/*	margin-left: 50%;
+	margin-right:50%;*/
+	/*border: 2px solid black;*/
+	text-align: center;
+	padding: 20px;
+	position: relative;
+	top: 50%;
+	left:0%;
+	/*-ms-transform: translateY(-60%);*/
+  transform: translateY(-60%);
+}
+
+.button{
+	margin: 10px;
+	/*margin-right: 25px;*/
+	border-radius: 50%;
+	border-width: 2px;
+	border-color: black;
+	border-style: solid;
+	height: 100px;
+	width: 100px;
+}
