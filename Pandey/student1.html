@@ -22,20 +22,24 @@
 				<input type="text" name="gender" placeholder="Gender" readonly>
 				<input type="text" name="category" placeholder="Category" readonly>
 				<input type="text" name="transaction" placeholder="Transaction Number" required>
-				<input type="date" name="dob" placeholder="Date of Birth |" required>
 				<input type="tel" name="mobile" placeholder="Mobile Number" required>
+				<input type="date" name="dob" placeholder="Date of Birth |" required>
 				<br>
-				<label style="color: wheat;line-height: 5px;font-weight: bold;">Semester: </label>
-				<select style="margin: 12px;">
-				  <option value="1">1st</option>
-				  <option value="2">2nd</option>
-				  <option value="3">3rd</option>
-				  <option value="4">4th</option>
-				  <option value="5">5th</option>
-				  <option value="6">6th</option>
-				  <option value="7">7th</option>
-				  <option value="8">8th</option>
-				</select>
+				<div class="styled">
+					<label style="color: wheat;line-height: 5px;font-weight: bold;">Semester: </label>
+				
+					<select required>
+					  <option value="" disabled selected hidden>Semester you are going to...</option>
+					  <option value="1">1st</option>
+					  <option value="2">2nd</option>
+					  <option value="3">3rd</option>
+					  <option value="4">4th</option>
+					  <option value="5">5th</option>
+					  <option value="6">6th</option>
+					  <option value="7">7th</option>
+					  <option value="8">8th</option>
+					</select>
+				</div>
 				<button type="submit" class="modified-button">Continue</button>
 
 			</form>
