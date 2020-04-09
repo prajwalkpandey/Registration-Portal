@@ -1,63 +1,130 @@
-.home-buttons{
-	right: 50%;
-	/*background-color: green;*/
-	height: 100vh;
-	float: right;
-	width:40%;
-	top:0px;
-	/*border-radius: 25%;*/
-	background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7) ),url(https://images.shiksha.com/mediadata/images/1550634752phpsaUQmw.jpeg);
-	background-size: cover;
-	background-position: center;
-	border-left: /*2px;
-	border-color: black;
-	border-style: solid; */
-}
-
-
 body{
 	margin: 0px;
-}
-
-
-.description{
-	text-align: center;
-	/*padding: 20px;*/
-	float: left;
-	width: 60%;
 	height: 100vh;
-	background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(https://img.collegepravesh.com/2018/12/IIIT-Guwahati.jpg);
-	position: relative;
+	width: 100vw;
+	background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7) ),url(./IIIT-Guwahati.jpg);
 	background-size: cover;
 	background-position: center;
-	/*filter: blur(2px);*/
-	/*top: 50%;
-	left:0%;
-	-ms-transform: translateY(-60%);
-  transform: translateY(-60%);*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-.button-div{
-	
-/*	margin-left: 50%;
-	margin-right:50%;*/
-	/*border: 2px solid black;*/
-	text-align: center;
-	padding: 20px;
+.main::before {
+	content: "";
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ),url(./iiitg_logo.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    filter: blur(5px);
+    border-radius: 50px;
+}
+
+.main{
+	width: 65%;
+
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 20px;
 	position: relative;
-	top: 50%;
-	left:0%;
-	/*-ms-transform: translateY(-60%);*/
-  transform: translateY(-60%);
 }
 
-.button{
-	margin: 10px;
-	/*margin-right: 25px;*/
-	border-radius: 50%;
-	border-width: 2px;
-	border-color: black;
-	border-style: solid;
-	height: 100px;
-	width: 100px;
+section{
+	width: 33%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 60px 0px;
 }
+
+
+.home-buttons{
+	position: relative;
+	border-radius: 50%;
+	border: 2px solid black;
+	height: 150px;
+	width: 150px;
+	opacity: 1;
+}
+
+.home-buttons:hover{
+	border-color: gray;
+}
+
+.modified-button{
+	display: block;
+  	color: #fff;
+ 	font-size: 1rem;
+ 	padding: 9px;
+  	background-color: black;
+  	/*margin-top: 40px;*/
+  	border: 1px; /* or use, NONE*/
+  	border-style: solid;
+  	border-color: wheat;
+  	border-radius: 15px;
+  	font-weight: bold;
+  	font-family: 'Montserrat';
+}
+
+.modified-button:hover{
+	color: black;
+	border-color: black;
+	background-color: wheat;
+}
+
+h2{
+	font-family: 'Montserrat';
+	-webkit-text-stroke: .5px black;
+	/*font-weight: bold;*/
+	font-size: 1.4rem;
+	color: wheat;
+}
+#heading{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+form{
+	position: relative;
+
+}
+input{
+  
+  border-width: 0 0 .2px 0;
+  border-style: solid;
+  border-color: wheat;
+  padding: 9px 0;
+  margin: 3px 0 3px 0;
+  color: wheat;
+  background: transparent;
+ }
+::placeholder{
+ 	color: wheat;
+	opacity: .7;
+	font-weight: bold;
+ }
+
+/*section:not(:first-child){
+	position: relative;
+	border-left: 1.5px solid wheat;
+}*/
+
+input{
+	min-width: 300px;
+}
+  input[type="date"]:before {
+    content: attr(placeholder) !important;
+    color: wheat;
+    font-weight: bold;
+    opacity: .7;
+  }
+  input[type="date"]:focus:before,
+  input[type="date"]:valid:before {
+    content: "";
+  }

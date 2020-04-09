@@ -1,21 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<style type="text/css" href="style.css"></style>
-	<title>Registration Form</title>
+	<title>Student Registration | IIITG</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
 </head>
 <body >
-	<div >
-		<form action="student1.html" method="get" name="roll-form">
-			<tr>
-				<td>Enter Your Roll No.</td>
-				<td><input type="text" name="roll"></td>
-			</tr>
-			<br>
-			<tr>
-				<td><input type="submit" name="submit"></td>
-			</tr>
-		</form>
-	</div>
+
+	<main class="main">
+		<!-- <h1 style="color: red;">BHRRR</h1> -->
+		<!-- <h1>Who are you?</h1> -->
+		<section>
+			<form method="get" action="student1.html">
+				<div id="heading"><h2>Continue Registration</h2></div>
+				<input type="text" name="roll-no" placeholder="Roll Number" required>
+				<br><br>
+				<button type="submit" class="modified-button">Continue</button>
+			</form>
+		</section>
+		<section>
+			<form>
+				<div id="heading"><h2>Generate Token</h2></div>
+				<input type="text" name="app-no" placeholder="Application Number" required>
+				<br><br>
+				<button type="submit" class="modified-button">Continue</button>
+			</form>
+		</section>
+		<section>
+			<form>
+				<div id="heading"><h2>Raise a Case</h2></div>
+				<input type="text" name="roll-no" placeholder="Roll Number" required>
+				<br><br>
+				<button type="submit" class="modified-button">Continue</button>
+			</form>
+		</section>
+	</main>
 </body>
 </html>
