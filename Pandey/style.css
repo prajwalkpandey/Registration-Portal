@@ -33,6 +33,7 @@ body{
 	justify-content: center;
 	border-radius: 20px;
 	position: relative;
+	max-height: 100vh;
 }
 
 section{
@@ -42,8 +43,15 @@ section{
 	justify-content: center;
 	padding: 60px 0px;
 }
-
-
+/*
+#section-single{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 60px 0px;
+}
+*/
 .home-buttons{
 	position: relative;
 	border-radius: 50%;
@@ -118,6 +126,9 @@ input{
 input{
 	min-width: 300px;
 }
+.small{
+	min-width: 200px;
+}
   input[type="date"]:before {
     content: attr(placeholder) !important;
     color: wheat;
@@ -147,4 +158,40 @@ input{
 	color: wheat;
 	font-weight: bold;
 	opacity: .7;
+}
+
+.styled2 select{
+	background: transparent;
+	background-color: black;
+	width: 60.90%;
+	height: 30px;
+	border-color: wheat;
+	color: wheat;
+	font-weight: bold;
+	opacity: .7;
+}
+
+#application{
+	background: transparent;
+	min-height: 200px;
+	min-width: 600px;
+	color: wheat;
+	font-weight: bold;
+}
+#case input[type=text]{
+	min-width: 600px;
+}
+
+#case input[type=textarea]{
+	min-width: 600px;
+}
+#case input[type=email]{
+	min-width: 600px;
+}
+section form{
+	max-height: 100%;
+}
+
+.file{
+	width: 250px;
 }
