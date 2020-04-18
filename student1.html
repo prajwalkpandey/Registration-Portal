@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student Registration Form | IIITG</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+</head>
+<body >
+
+	<main class="main">
+		<!-- <h1 style="color: red;">BHRRR</h1> -->
+		<!-- <h1>Who are you?</h1> -->
+		<section>
+			<form method="GET" action="student2.html">
+				<div id="heading"><h2>Fill the Details</h2></div>
+
+				<input type="text" name="name" placeholder="Name" readonly>
+				<input type="text" name="father" placeholder="Father's Name" readonly>
+				<input type="text" name="mother" placeholder="Mother's Name" readonly>
+				<input type="text" name="roll" placeholder="Roll Number" readonly>
+				<input type="text" name="gender" placeholder="Gender" readonly>
+				<input type="text" name="category" placeholder="Category" readonly>
+				<input type="text" name="transaction" placeholder="Transaction Number" required>
+				<input type="tel" name="mobile" placeholder="Mobile Number" required>
+				<input type="date" name="dob" placeholder="Date of Birth |" required>
+				<br>
+				<div class="styled">
+					<label style="color: wheat;line-height: 5px;font-weight: bold;">Semester: </label>
+				
+					<select required>
+					  <option value="" disabled selected hidden>Semester you are going to...</option>
+					  <option value="1">1st</option>
+					  <option value="2">2nd</option>
+					  <option value="3">3rd</option>
+					  <option value="4">4th</option>
+					  <option value="5">5th</option>
+					  <option value="6">6th</option>
+					  <option value="7">7th</option>
+					  <option value="8">8th</option>
+					</select>
+				</div>
+				<button type="submit" class="modified-button">Continue</button>
+
+			</form>
+		</section>
+	</main>
+</body>
+</html>
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<title>Fill In the Details</title>
+</head>
+<body>
+	<b>Roll No.: </b><span id="log"></span>
+	<form>
+		<tr>
+			<td>Name</td>
+			<td><input type="text" name="Name"></td>
+		</tr>
+	</form>
+
+
+	<script language="JavaScript">
+
+	function addComment()
+	{
+		var parameters = location.search.substring(1).split("&");
+
+		var temp = parameters[0].split("=");
+		l = unescape(temp[1]);
+
+
+		document.getElementById("log").innerHTML = l;
+	}
+addComment();
+
+</script>
+</body>
+</html> -->

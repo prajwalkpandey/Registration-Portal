@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Case Applications | IIITG</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+</head>
+<body >
+
+	<main class="main">
+		<section id="section-single">
+			<form method="GET" id="case">
+				<div id="heading"><h2>Write Application</h2></div>
+
+				<input type="text" name="name" placeholder="Name" readonly>
+				<input type="text" name="roll" placeholder="Roll Number" readonly>
+				<input type="email" name="email" placeholder="Email Id" readonly>
+				<br><br>
+				<div class="appctn">
+					<label style="color: wheat;line-height: 5px;font-weight: bold;">Application: </label>
+					<br><br>
+					<textarea id="application" placeholder="Write Your Application" required></textarea>
+				</div>
+				<input type="file" id="myfile1" name="myfile1" class="file" accept="image/jpeg, application/pdf">
+				<input type="file" id="myfile2" name="myfile2" class="file" accept="image/jpeg, application/pdf">
+				<button type="submit" class="modified-button">Submit</button>
+
+			</form>
+		</section>
+	</main>
+</body>
+</html>
