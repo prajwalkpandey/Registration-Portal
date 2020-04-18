@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Choose Subjects | IIITG</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+</head>
+<body >
+
+	<main class="main">
+		<!-- <h1 style="color: red;">BHRRR</h1> -->
+		<!-- <h1>Who are you?</h1> -->
+		<section>
+			<form>
+				<div id="heading"><h2>Confirm Subjects</h2></div>
+
+				<input type="text" name="compulsory_subject" placeholder="Subject" readonly>
+				
+				<br><br>
+				<div class="styled2">
+					<label style="color: wheat;line-height: 5px;font-weight: bold;">Choose Elective: </label>
+				
+					<select required>
+					  <option value="" disabled selected hidden>Select your Elective</option>
+					  <option value="1">1st</option>
+					</select>
+				</div>
+				<button type="submit" class="modified-button">Submit</button>
+
+			</form>
+		</section>
+	</main>
+</body>
+</html>
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<title>Fill In the Details</title>
+</head>
+<body>
+	<b>Roll No.: </b><span id="log"></span>
+	<form>
+		<tr>
+			<td>Name</td>
+			<td><input type="text" name="Name"></td>
+		</tr>
+	</form>
+
+
+	<script language="JavaScript">
+
+	function addComment()
+	{
+		var parameters = location.search.substring(1).split("&");
+
+		var temp = parameters[0].split("=");
+		l = unescape(temp[1]);
+
+
+		document.getElementById("log").innerHTML = l;
+	}
+addComment();
+
+</script>
+</body>
+</html> -->
